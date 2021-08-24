@@ -1,0 +1,2 @@
+-- SQLite
+SELECT Situacao.IdSituacao,Atividade.nomeAtividade,Aluno.nome,Situacao.conclusao,Situacao.desempenho FROM Situacao INNER JOIN Atividade,Aluno ON Id_Atividade = IdAtividade AND Id_matricula = matricula
